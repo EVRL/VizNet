@@ -1,0 +1,279 @@
+ID,Time,Src Entity,Src Port,Dst Entity,Dst Port,Dst Country,Alert
+,,,,,,,
+1,7/5/2013 5:37,USA.3,52869,USA.12,445,USA,Fragmented IP Packet
+,,,,,,,
+2,7/5/2013 5:11,USA.113,2787,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+3,7/5/2013 5:30,USA.12,3377,Pellucidar.28,443,Pellucidar,Fragmented IP Packet
+,,,,,,,
+4,7/5/2013 5:15,USA.110,2986,land of OZ.99,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+5,7/5/2013 5:35,USA.12,3498,Neverland.49,443,Neverland,Fragmented IP Packet
+,,,,,,,
+6,7/5/2013 5:09,USA.3,2660,Dreamlands.106,80,Dreamlands,WEB-CGI php.cgi access
+,,,,,,,
+7,7/5/2013 5:38,USA.76,53249,Hogwarts.88,8080,Hogwarts,ET TROJAN Qhosts Trojan Check-in
+,,,,,,,
+8,7/5/2013 5:21,USA.12,3193,Wonderland.8,80,Wonderland,WEB-CGI php.cgi access
+,,,,,,,
+9,7/5/2013 5:11,USA.113,2800,Gullivers World.198,443,Gullivers World,Fragmented IP Packet
+,,,,,,,
+10,7/5/2013 5:12,USA.12,2852,USA.4,21,USA,FTP Satan Scan
+,,,,,,,
+11,7/5/2013 5:30,USA.12,3386,Dreamlands.106,80,Dreamlands,WEB-CGI php.cgi access
+,,,,,,,
+12,7/5/2013 5:07,USA.3,52593,Blefuscu.112,443,Blefuscu,Fragmented IP Packet
+,,,,,,,
+13,7/5/2013 5:04,USA.12,2587,Utopia.211,80,Utopia,Javascript Exploit CVE-2012-09-10a
+,,,,,,,
+14,7/5/2013 5:38,USA.12,52870,Pern.152,21,Pern,FTP STOR overflow attempt
+,,,,,,,
+15,7/5/2013 5:11,USA.113,2768,Neverland.49,443,Neverland,Fragmented IP Packet
+,,,,,,,
+16,7/5/2013 5:12,USA.12,2859,USA.1,21,USA,FTP Satan Scan
+,,,,,,,
+17,7/5/2013 5:11,USA.113,2737,Middle-Earth.64,80,Middle-Earth,INFO Connection Closed MSG from Port 80
+,,,,,,,
+18,7/5/2013 5:30,USA.12,3383,Pern.110,443,Pern,Fragmented IP Packet
+,,,,,,,
+19,7/5/2013 5:25,USA.96,65113,Atlantis.10,8000,Atlantis, ET TROJAN Sality Variant Downloader Activity 
+,,,,,,,
+20,7/5/2013 5:11,USA.113,2731,Deltora.36,80,Deltora,INFO Connection Closed MSG from Port 80
+,,,,,,,
+21,7/5/2013 5:21,USA.12,20,USA.3,52644,USA,FTP - Suspicious MGET Command
+,,,,,,,
+22,7/5/2013 5:30,USA.12,3394,Tatooine.157,443,Tatooine,Fragmented IP Packet
+,,,,,,,
+23,7/5/2013 5:11,USA.113,2758,Pandora.116,80,Pandora,WEB-CGI webspeed access
+,,,,,,,
+24,7/5/2013 5:14,USA.12,2948,USA.11,21,USA,FTP Satan Scan
+,,,,,,,
+25,7/5/2013 5:12,USA.12,2853,USA.5,21,USA,FTP Satan Scan
+,,,,,,,
+26,7/5/2013 5:15,USA.12,3011,Middle-Earth.63,80,Middle-Earth,INFO Connection Closed MSG from Port 80
+,,,,,,,
+27,7/5/2013 5:11,USA.113,2786,Pern.162,80,Pern,INFO web bug 0x0 gif attempt
+,,,,,,,
+28,7/5/2013 5:25,USA.96,65112,Atlantis.10,8000,Atlantis, ET TROJAN Sality - Fake Opera User-Agent 
+,,,,,,,
+29,7/5/2013 5:30,USA.12,3360,Shangri-La.129,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+30,7/5/2013 5:41,USA.12,3507,Neverland.192,443,Neverland,Fragmented IP Packet
+,,,,,,,
+31,7/5/2013 4:57,USA.12,2485,land of OZ.99,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+32,7/5/2013 5:13,USA.12,2909,USA.10,21,USA,FTP Satan Scan
+,,,,,,,
+33,7/5/2013 5:11,USA.113,2789,Neverland.49,443,Neverland,Fragmented IP Packet
+,,,,,,,
+34,7/5/2013 5:26,USA.96,65115,Atlantis.10,8000,Atlantis, ET TROJAN Virus.Win32.Sality.aa Checkin 
+,,,,,,,
+35,7/5/2013 5:27,USA.12,3294,Middle-Earth.160,80,Middle-Earth,INFO Connection Closed MSG from Port 80
+,,,,,,,
+36,7/5/2013 5:11,USA.113,2764,Xanadu.42,80,Xanadu,Fragmented IP Packet
+,,,,,,,
+37,7/5/2013 5:16,USA.12,20,USA.3,52619,USA,FTP - Suspicious MGET Command
+,,,,,,,
+38,7/5/2013 5:12,USA.12,2889,USA.9,21,USA,FTP Satan Scan
+,,,,,,,
+39,7/5/2013 5:15,USA.12,3067,Neverland.17,443,Neverland,Fragmented IP Packet
+,,,,,,,
+40,7/5/2013 5:17,USA.101,3547,USA.12,139,USA,NETBIOS SMB-DS winreg access
+,,,,,,,
+41,7/5/2013 5:15,USA.12,3037,Neverland.192,443,Neverland,Fragmented IP Packet
+,,,,,,,
+42,7/5/2013 5:30,USA.12,3385,Atlantis.54,443,Atlantis,Fragmented IP Packet
+,,,,,,,
+43,7/5/2013 5:30,USA.12,3418,Charn.102,80,Charn,WEB-CGI php.cgi access
+,,,,,,,
+44,7/5/2013 5:30,USA.12,3399,Shangri-La.1,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+45,7/5/2013 5:18,USA.12,3132,Wonderland.5,80,Wonderland,Fragmented IP Packet
+,,,,,,,
+46,7/5/2013 5:45,USA.12,3565,Far Far Away.14,80,Far Far Away,WEB-PHP authentication_index.php access
+,,,,,,,
+47,7/5/2013 5:35,USA.12,3484,Neverland.192,443,Neverland,Fragmented IP Packet
+,,,,,,,
+48,7/5/2013 5:15,USA.12,3019,Dinotopia.254,80,Dinotopia,INFO Connection Closed MSG from Port 80
+,,,,,,,
+49,7/5/2013 5:12,USA.12,2858,USA.3,21,USA,FTP Satan Scan
+,,,,,,,
+50,7/5/2013 5:15,USA.12,3012,Middle-Earth.62,80,Middle-Earth,INFO Connection Closed MSG from Port 80
+,,,,,,,
+51,7/5/2013 5:09,USA.3,2666,Naboo.105,80,Naboo,WEB-PHP authentication_index.php access
+,,,,,,,
+52,7/5/2013 5:40,USA.12,20,Pern.152,52878,Pern,Rar Encrypted File Transfer
+,,,,,,,
+53,7/5/2013 5:08,USA.12,52575,Utopia.211,1337,Utopia,”IRC Command Control and Scanning Tool Download”
+,,,,,,,
+54,7/5/2013 5:11,USA.113,2784,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+55,7/5/2013 5:28,USA.76,53248,Hogwarts.88,8080,Hogwarts,ET TROJAN Qhosts Trojan Check-in
+,,,,,,,
+56,7/5/2013 5:30,USA.12,3375,Shangri-La.1,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+57,7/5/2013 5:30,USA.12,3381,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+58,7/5/2013 5:09,USA.3,2676,Far Far Away.13,80,Far Far Away,WEB-PHP authentication_index.php access
+,,,,,,,
+59,7/5/2013 5:11,USA.110,2718,Xanadu.45,80,Xanadu,WEB-CGI php.cgi access
+,,,,,,,
+60,7/5/2013 5:15,USA.12,3047,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+61,7/5/2013 5:30,USA.12,3400,Dreamlands.106,443,Dreamlands,Fragmented IP Packet
+,,,,,,,
+62,7/5/2013 5:15,USA.12,52614,USA.3,21,USA,FTP CWD Root directory transversal attempt
+,,,,,,,
+63,7/5/2013 5:08,USA.76,53246,Hogwarts.88,8080,Hogwarts,ET TROJAN Qhosts Trojan Check-in
+,,,,,,,
+64,7/5/2013 5:11,USA.113,2735,Far Far Away.11,80,Far Far Away,WEB-PHP authentication_index.php access
+,,,,,,,
+65,7/5/2013 5:40,USA.12,20,Pern.152,52877,Pern,Rar Encrypted File Transfer
+,,,,,,,
+66,7/5/2013 5:15,USA.110,2990,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+67,7/5/2013 5:15,USA.110,2984,land of OZ.131,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+68,7/5/2013 5:18,USA.12,3144,Neverland.192,443,Neverland,Fragmented IP Packet
+,,,,,,,
+69,7/5/2013 5:27,USA.12,3288,Middle-Earth.63,80,Middle-Earth,INFO Connection Closed MSG from Port 80
+,,,,,,,
+70,7/5/2013 5:30,USA.12,3406,Charn.102,443,Charn,Fragmented IP Packet
+,,,,,,,
+71,7/5/2013 5:11,USA.113,2763,Blefuscu.112,80,Blefuscu,XMLHttpRequest attempt
+,,,,,,,
+72,7/5/2013 5:18,USA.12,3150,Neverland.192,443,Neverland,Fragmented IP Packet
+,,,,,,,
+73,7/5/2013 5:18,USA.12,3133,Wonderland.5,80,Wonderland,WEB-CGI php.cgi access
+,,,,,,,
+74,7/5/2013 5:17,USA.12,3073,Neverland.17,443,Neverland,Fragmented IP Packet
+,,,,,,,
+75,7/5/2013 5:30,USA.12,3432,Shangri-La.1,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+76,7/5/2013 5:25,USA.96,65114,Atlantis.10,8000,Atlantis, ET TROJAN W32/Sality Executable Pack Digital Signature ASCII Marker 
+,,,,,,,
+77,7/5/2013 5:40,USA.12,20,Pern.152,52879,Pern,Rar Encrypted File Transfer
+,,,,,,,
+78,7/5/2013 5:12,USA.12,2871,USA.7,21,USA,FTP Satan Scan
+,,,,,,,
+79,7/5/2013 5:11,USA.113,2757,Pandora.116,80,Pandora,Fragmented IP Packet
+,,,,,,,
+80,7/5/2013 5:11,USA.3,2717,Blefuscu.112,80,Blefuscu,XMLHttpRequest attempt
+,,,,,,,
+81,7/5/2013 5:11,USA.113,2761,Blefuscu.112,80,Blefuscu,XMLHttpRequest attempt
+,,,,,,,
+82,7/5/2013 5:41,USA.101,3659,USA.12,139,USA,NETBIOS SMB-DS winreg access
+,,,,,,,
+83,7/5/2013 5:30,USA.12,3368,Pellucidar.26,80,Pellucidar,XMLHttpRequest attempt
+,,,,,,,
+84,7/5/2013 5:04,USA.12,2557,Dreamlands.123,80,Dreamlands,Suspicious Browser Redirect
+,,,,,,,
+85,7/5/2013 5:09,USA.3,2678,Pern.162,80,Pern,INFO web bug 0x0 gif attempt
+,,,,,,,
+86,7/5/2013 5:30,USA.12,3402,Pellucidar.26,443,Pellucidar,Fragmented IP Packet
+,,,,,,,
+87,7/5/2013 5:11,USA.3,2713,Blefuscu.112,80,Blefuscu,XMLHttpRequest attempt
+,,,,,,,
+88,7/5/2013 5:30,USA.12,3391,Far Far Away.13,80,Far Far Away,Fragmented IP Packet
+,,,,,,,
+89,7/5/2013 5:25,USA.96,65111,Atlantis.10,8000,Atlantis, ET TROJAN Sality Variant Checkin Activity 
+,,,,,,,
+90,7/5/2013 5:15,USA.12,3022,Dinotopia.125,80,Dinotopia,INFO Connection Closed MSG from Port 80
+,,,,,,,
+91,7/5/2013 5:45,USA.12,3562,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+92,7/5/2013 5:17,USA.12,20,USA.3,52622,USA,FTP - Suspicious MGET Command
+,,,,,,,
+93,7/5/2013 4:58,USA.76,53245,Hogwarts.88,8080,Hogwarts,ET TROJAN Qhosts Trojan Check-in
+,,,,,,,
+94,7/5/2013 5:27,USA.12,3303,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+95,7/5/2013 5:38,USA.12,20,Pern.152,52871,Pern,Rar Encrypted File Transfer
+,,,,,,,
+96,7/5/2013 5:30,USA.12,3397,Pellucidar.26,443,Pellucidar,Fragmented IP Packet
+,,,,,,,
+97,7/5/2013 5:40,USA.12,20,Pern.152,52880,Pern,Rar Encrypted File Transfer
+,,,,,,,
+98,7/5/2013 5:11,USA.110,2719,Xanadu.45,80,Xanadu,WEB-CGI php.cgi access
+,,,,,,,
+99,7/5/2013 5:09,USA.3,2668,Wonderland.5,80,Wonderland,WEB-CGI webspeed access
+,,,,,,,
+100,7/5/2013 5:23,USA.12,3227,Shangri-La.129,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+101,7/5/2013 5:11,USA.113,2839,Hogwarts.12,80,Hogwarts,WEB-PHP authentication_index.php access
+,,,,,,,
+102,7/5/2013 5:04,USA.12,2589,Utopia.211,80,Utopia,Javascript Exploit CVE-2012-09-10b
+,,,,,,,
+103,7/5/2013 5:11,USA.113,2825,Westeros.168,80,Westeros,WEB-PHP authentication_index.php access
+,,,,,,,
+104,7/5/2013 5:22,USA.12,3200,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+105,7/5/2013 5:27,USA.12,3291,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+106,7/5/2013 5:18,USA.12,3098,Shangri-La.129,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+107,7/5/2013 5:21,USA.12,3181,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+108,7/5/2013 5:21,USA.12,52643,USA.3,21,USA,FTP CWD Root directory transversal attempt
+,,,,,,,
+109,7/5/2013 5:30,USA.12,3404,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+110,7/5/2013 5:16,USA.12,20,USA.3,52620,USA,FTP - Suspicious MGET Command
+,,,,,,,
+111,7/5/2013 5:24,USA.12,3239,Pern.114,80,Pern,INFO web bug 0x0 gif attempt
+,,,,,,,
+112,7/5/2013 5:11,USA.113,2756,Dinotopia.225,80,Dinotopia,INFO Connection Closed MSG from Port 80
+,,,,,,,
+113,7/5/2013 5:30,USA.12,3419,Pellucidar.26,80,Pellucidar,XMLHttpRequest attempt
+,,,,,,,
+114,7/5/2013 5:12,USA.12,2857,USA.2,21,USA,FTP Satan Scan
+,,,,,,,
+115,7/5/2013 5:18,USA.76,53247,Hogwarts.88,8080,Hogwarts,ET TROJAN Qhosts Trojan Check-in
+,,,,,,,
+116,7/5/2013 5:09,USA.3,2665,Naboo.105,80,Naboo,WEB-PHP authentication_index.php access
+,,,,,,,
+117,7/5/2013 5:16,USA.12,20,USA.3,52621,USA,FTP - Suspicious MGET Command
+,,,,,,,
+118,7/5/2013 5:12,USA.12,2868,USA.6,21,USA,FTP Satan Scan
+,,,,,,,
+119,7/5/2013 5:30,USA.12,3384,Shangri-La.1,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+120,7/5/2013 5:16,USA.12,20,USA.3,52618,USA,FTP - Suspicious MGET Command
+,,,,,,,
+121,7/5/2013 5:11,USA.110,2716,Xanadu.42,80,Xanadu,WEB-CGI php.cgi access
+,,,,,,,
+122,7/5/2013 5:30,USA.12,3396,Shangri-La.1,80,Shangri-La,MULTIMEDIA Quicktime User Agent access
+,,,,,,,
+123,7/5/2013 5:45,USA.12,3566,Camelot.32,80,Camelot,XMLHttpRequest attempt
+,,,,,,,
+124,7/5/2013 5:18,USA.12,3116,Neverland.192,443,Neverland,Fragmented IP Packet
+,,,,,,,
+125,7/5/2013 5:29,USA.101,3594,USA.12,139,USA,NETBIOS SMB-DS winreg access
+,,,,,,,
+126,7/5/2013 5:11,USA.113,2762,Forgotten Realm.204,80,Forgotten Realm,Fragmented IP Packet
+,,,,,,,
+127,7/5/2013 5:11,USA.3,2727,Deltora.36,80,Deltora,INFO Connection Closed MSG from Port 80
+,,,,,,,
+128,7/5/2013 5:15,USA.12,3051,Far Far Away.14,80,Far Far Away,WEB-PHP authentication_index.php access
+,,,,,,,
+129,7/5/2013 5:12,USA.12,2866,USA.8,21,USA,FTP Satan Scan
+,,,,,,,
+130,7/5/2013 5:09,USA.3,2680,Wonderland.5,80,Wonderland,WEB-CGI php.cgi access
+,,,,,,,
+131,7/5/2013 5:21,USA.12,3175,Narnia.102,80,Narnia,Chat Yahoo IM Message
+,,,,,,,
+132,7/5/2013 4:57,USA.12,2482,land of OZ.131,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+133,7/5/2013 5:38,USA.12,20,Pern.152,52872,Pern,Rar Encrypted File Transfer
+,,,,,,,
+134,7/5/2013 5:17,USA.12,20,USA.3,52625,USA,FTP - Suspicious MGET Command
+,,,,,,,
+135,7/5/2013 5:40,USA.12,20,Pern.152,52881,Pern,Rar Encrypted File Transfer
+,,,,,,,
+136,7/5/2013 5:14,USA.110,2958,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+137,7/5/2013 5:11,USA.113,2781,land of OZ.159,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+138,7/5/2013 5:15,USA.110,2985,land of OZ.99,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view
+,,,,,,,
+139,7/5/2013 4:57,USA.12,2488,land of OZ.99,80,land of OZ,WEB-MISC Netscape Enterprise Server directory view

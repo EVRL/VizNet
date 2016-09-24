@@ -1,0 +1,146 @@
+#!/usr/bin/env python
+
+import time
+import os
+import datetime
+
+def get_filename(directory):
+    '''
+    get_filename(directory):
+
+    This function takes a directory and records the last modification time
+    (since epoch) and size of the file.
+
+    Return:
+    It returns a dictionary with the file name is the key, modification time
+    and size.
+
+    {'filename': [modification_time, size], ... }
+    '''
+    
+    # file_dictionary = {}
+    file_list = []
+
+    
+    if directory == "":
+        directory = os.getcwd()
+
+    for filename in os.listdir(directory):
+        full_path = directory + os.path.sep + filename
+
+        #ToDo use regex instead
+        if filename == '.DS_Store' or filename == '.git':
+            continue
+        else:
+            #print filename, full_path, os.path.getmtime(full_path), os.path.getsize(full_path)
+            # file_dictionary[filename] = [os.path.getmtime(full_path),
+            #                              os.path.getsize(full_path)]
+            file_list.append(filename)
+
+
+    return file_list
+    # print file_dictionary
+    # return file_dictionary
+
+def get_list_dir():
+    pass
+
+def run_tracker(directory_path, tracker_path):
+
+    try:
+        # openning file for comparing
+        output = open(tracker_path, "r+")
+
+    except IOError as e:
+        print "File did not exist", e
+        print "Creating file", tracker_path
+        
+        count = 1
+        output = open(tracker_path, "w+")
+
+        # adding header to the file
+        output.write("ID, Run Date, File Name, Modification Time, File Size\n")
+
+        state = {}
+        # ID, run_date, file_name, modified_time, size
+        for i in get_filename(directory_path):
+            state[count] = [time.ctime(),
+                            i,
+                            os.path.getmtime(i),
+                            os.path.getsize(i)]
+        
+            output.write("%s,%s,%s,%s,%s\n" % (count,
+                                               state[count][0],
+                                               state[count][1],
+                                               state[count][2],
+                                               state[count][3]))
+            count += 1
+        output.close()
+        return 0
+
+    # file exist so continue your code 
+    count = 0
+    data_stream = []
+    for line in output.readlines():
+        # remember to skip header (row 0)
+        if count == 0:
+            count += 1
+            continue
+        count += 1
+
+        # file_array is count : 0, run date : 1, file name : 2, mod time : 3,
+        # file size : 4
+        file_array = line.split(",")
+
+        # three states: current, missing, added
+        # ========================================
+        # focusing on `current'
+        # run across the directory 
+        for i in get_filename(directory_path):
+
+            if file_array[2] == i:
+
+                # if there is a change in file
+                if os.path.getmtime(i) != file_array[3] and os.path.getsize(i) != int(file_array[4]):
+                    # call plotly routine on changed file MOST important
+                    
+                    # update the data stream
+                    file_array[1] = time.ctime()
+                    file_array[3] = os.path.getmtime(i)
+                    file_array[4] = os.path.getsize(i)
+
+                    data_stream.append(file_array)
+                # if there is no change in file
+                else:
+                    file_array[4] = int(file_array[4])
+                    data_stream.append(file_array)
+
+    output.close()
+
+    print data_stream
+
+    # openning file for updating
+    output = open(tracker_path, "w+")    
+
+    # adding header to the file
+    output.write("ID, Run Date, File Name, Modification Time, File Size\n")
+
+    for row in data_stream:
+        output.write("%s,%s,%s,%s,%s\n" % (row[0],
+                                           row[1],
+                                           row[2],
+                                           row[3],
+                                           row[4]))
+    output.close()
+    return 0
+
+def main():
+
+    file_name = "../state_tracker_A12.csv"
+    # print get_filename("")
+    print run_tracker("", file_name)
+
+
+
+if __name__ == '__main__':
+    main()
